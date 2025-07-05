@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chhagan Rakhade - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css"/>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <div class="profile-circle">
+                <img id="header-profile" src="chhan.JPG" alt="Profile">
+            </div>
+            <div class="logo-text">Chhagan Rakhade</div>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#resume">Resume</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home Section -->
+<section id="home" class="home-section">
+    <div class="section-content">
+      <div class="text-content">
+        <h1 class="fade-in">
+          Hi, I'm 
+          <span class="highlight-name animate-gradient">Chhagan Rakhade</span><br />
+          Fullstack Developer
+        </h1>
+        <p class="fade-in-delay">
+          I'm a final-year Computer Science student with a strong foundation in core programming concepts, data structures, and algorithms. Skilled in web technologies, especially the MERN stack, I enjoy building scalable and responsive applications. I'm passionate about solving real-world problems through clean code and impactful design.
+        </p>
+        <div class="buttons fade-in-delay">
+          <a href="#skills" class="btn">View My Skills</a>
+          <a href="chhaganresume2.pdf" class="btn btn-outline" download>Download Resume</a>
+        </div>
+      </div>
+      <div class="visual-content fade-in-delay">
+        <div class="home-profile">
+          <img id="main-profile" src="chhan.JPG" alt="Profile Photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+        <!-- Compact Education Section -->
+        <section id="education">
+            <div class="education-container">
+                <h2> <span>Education</span></h2>
+                <p class="text-center max-w-2xl mx-auto mb-8">My academic background in computer science</p>
+                
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-degree">B.Tech Computer Science Engineering</div>
+                            <div class="education-period">2022-2026</div>
+                        </div>
+                        <p>Rashtrasant Tukdoji Maharaj Nagpur University</p>
+                        <div class="education-details">
+                            <div class="detail-item">
+                                <span>CGPA:</span>
+                                <span>8.1/10</span>
+                            </div>
+                            <div class="detail-item">
+                                <span>Specialization:</span>
+                                <span>Computer Science Engineering & Data Science</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-degree">Higher Secondary (HSC)</div>
+                            <div class="education-period">2019-2021</div>
+                        </div>
+                        <p>SNVT, Nagpur, Maharashtra</p>
+                        <div class="education-details">
+                            <div class="detail-item">
+                                <span>Percentage:</span>
+                                <span>86%</span>
+                            </div>
+                            <div class="detail-item">
+                                <span>Board:</span>
+                                <span>Maharashtra State Board</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Web Technology Skills Section -->
+        <section id="skills">
+            <div class="skills-container">
+              <h2>Web <span>Skills</span></h2>
+              <p class="text-center max-w-2xl mx-auto">
+                Technologies I specialize in for building modern web applications
+              </p>
+          
+              <div class="skills-grid">
+                <!-- Existing Skills -->
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                  <h4>HTML5</h4><p>Semantic markup</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                  <h4>CSS3</h4><p>Styling & layout</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-js"></i></div>
+                  <h4>JavaScript</h4><p>ES6+ features</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-react"></i></div>
+                  <h4>React</h4><p>Components & Hooks</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                  <h4>Node.js</h4><p>Backend development</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fas fa-database"></i></div>
+                  <h4>MongoDB</h4><p>NoSQL database</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                  <h4>Git</h4><p>Version control</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-npm"></i></div>
+                  <h4>npm</h4><p>Package manager</p>
+                </div>
+          
+                <!-- New Skills -->
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fas fa-code"></i></div>
+                  <h4>Tailwind CSS</h4><p>Utility-first CSS</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fas fa-server"></i></div>
+                  <h4>Express.js</h4><p>Node.js framework</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                  <h4>Bootstrap</h4><p>Responsive UI</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                  <h4>Socket.IO</h4><p>Real-time WebSocket</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                  <h4>Figma</h4><p>UI design tool</p>
+                </div>
+          
+                <div class="skill-card">
+                  <div class="skill-icon"><i class="fas fa-pencil-ruler"></i></div>
+                  <h4>Balsamiq</h4><p>Wireframing</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+
+        <section id="projects">
+            <div style="width: 100%;">
+                <h2>My <span>Projects</span></h2>
+                <p class="text-center max-w-2xl mx-auto mb-8">Check out some of my recent web development projects</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="Meet.png" alt="Meet-me App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Meet-me</h3>
+                            <div class="project-description">
+                                <p>Meet Me is a real-time communication web application that enables users to engage in instant messaging and video calling using WebSocket technology. Built with a full-stack architecture (e.g., React, Node.js, Express, and Socket.IO), it offers seamless peer-to-peer video conferencing and live chat functionality. The platform ensures low-latency communication and is ideal for virtual meetings, collaboration, or online events.</p>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Redux</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">WebSockets</span>
+                            </div>
+                            <a href="" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="Tech.png" alt="Hackathon Management App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Hackathon Management Application</h3>
+                            <div class="project-description">
+                                <p>A full-stack Hackathon Management Application with secure admin-only login using JWT authentication. Built with React, Node.js, Express, and MongoDB, it allows admins to manage team registrations, rules, payment receipts, and session dashboards. Designed for streamlined hackathon oversight and real-time control.
+                                    .</p>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag">React.js</span>
+                                <span class="project-tag">Nodejs</span>
+                                <span class="project-tag">Real-time NO-sql DB</span>
+                                <span class="project-tag">JWT-based</span>
+                            </div>
+                            <a href="https://techkrutiii.netlify.app/" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="Lib.png" alt="AI Chat Assistant">
+                        </div>
+                        <div class="project-content">
+                            <h3>Library management Application</h3>
+                            <div class="project-description">
+                                <p>A full-stack Library Management System built with React, Node.js, Express, and MongoDB, featuring secure JWT-based authentication. It allows admins to perform full CRUD operations on books and users, while authenticated users can borrow and return books within a defined time period. The system ensures efficient, role-based access and real-time library data management..</p>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag">Rest Apis</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">express js</span>
+                                <span class="project-tag">MongoDB</span>
+                            </div>
+                            <a href="https://github.com/chhagan123/Library_management" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+          
+          
+          
+
+        <!-- Resume Download Section
+        <section id="resume">
+            <div class="resume-container">
+                <h2>Download <span>Resume</span></h2>
+                <p>Get a copy of my detailed resume with all my qualifications, experience, and skills.</p>
+                
+                <a href="C:\Users\DELL\Desktop\Portfollio\chhaganresume2.pdf" class="resume-download">
+                    <i class="fas fa-download"></i>
+                    Download Resume (PDF)
+                </a>
+                
+                <p class="mt-4 text-gray-400"></p>
+            </div>
+        </section> -->
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In <span>Touch</span></h2>
+                    <p>Feel free to reach out to me for any questions or opportunities!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nagpur, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>chhaganrakhade7@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-9158396794</p>
+                        </div>
+                    
+                    </div>
+                    
+                    
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/chhagan-rakhade-893836246/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/chhagan123"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/__rushabh_04"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- <div class="contact-form">
+                    <h2>Send Me a <span>Message</span></h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Project Inquiry">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main> -->
+
+    <!-- Image Upload Section
+    <div id="image-upload">
+        <h3>Update Project Images</h3>
+        <p>Enter image URLs to customize your projects:</p>
+        <input type="text" id="project1-image" placeholder="Meet-me project image URL">
+        <input type="text" id="project2-image" placeholder="Hackathon project image URL">
+        <input type="text" id="project3-image" placeholder="AI Chat project image URL">
+        <button id="update-images-btn">Update Images</button>
+        <p class="small-text">Note: For local files, place images in the same folder as this HTML file and use filenames</p>
+    </div> -->
+
+    <!-- Footer -->
+   
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+    
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    
+        // Smooth scrolling and mobile menu close on link click
+        document.querySelectorAll('.mobile-menu a, .desktop-nav a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                // Scroll to target section smoothly
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+    
+                // Remove active class from all links
+                document.querySelectorAll('nav a').forEach(navLink => {
+                    navLink.classList.remove('active');
+                });
+                this.classList.add('active');
+    
+                // Close mobile menu after click
+                if (mobileMenu.classList.contains('active')) {
+                    mobileMenu.classList.remove('active');
+                }
+            });
+        });
+    
+        // Update active nav link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const scrollY = window.scrollY;
+    
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 80;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+    
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    
+        // Optional animation on scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.education-card, .skill-card, .project-card');
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = 1;
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+    
+        // Set initial state for animation
+        document.querySelectorAll('.education-card, .skill-card, .project-card').forEach(el => {
+            el.style.opacity = 0;
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+    
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+    >
+</body>
+</html>
